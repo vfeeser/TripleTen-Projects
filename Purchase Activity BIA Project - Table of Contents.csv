@@ -1,0 +1,18 @@
+Table of Contents,
+Sheet Name,Description
+Executive Summary,"This sheet summarizes the analysis made on each topic (conversion funnels, retention rates, and raw data). "
+cohort_analysis,This pivot table reflects each cohort (by month/year) and how many users continued to purchase during each week since their first purhcase date (columns 0-4 indicate the weeks).
+retention_rates,This sheet shows calculations from each cohort month and the retention rates (number of each user that continued purchasing) in 1-4 months of time.
+purchase_activity,This data is filtered from the raw_user_activity dataset but only contains events where the user purchase from the site. Data columns were also added to reflect the month when the purchase was made (event_month) and the first time the customer purhcased (first_purchase_month). The last column reflects the age of the cohort by the month that they first purchased.
+first_purchase,This pivot table contains the minimum purchase date for each user_id to determine first purchase date.
+conversion_funnel,"This pivot table shows the number of unique users for each event type (view, shopping_cart, and purhcase). Calculations are also made to determine the total_conversion_rate and conversion_rates_to_the_next_step."
+raw_user_activity,"Used columns for this analysis are the user_id, event_type, and event_date. Other columns are not necessary for this analysis and have been hidden. "
+Change Log,Log of steps taken in analysis/processing data.
+,
+,
+,
+Legend,
+Summaries,
+Analysis,
+Calculations,
+Raw Data,
